@@ -1,0 +1,55 @@
+:root {
+    --programming-percent: 0% ;
+    --programming-color: green;
+
+}
+
+.programming {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-top: -10vh;
+}
+
+.programming > h1 {
+    text-align: center;
+}
+
+.programming_container{
+    text-align: left;
+    margin: 2%;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-bottom: 1%;
+    height: auto;
+}
+
+.programming_container > p{
+    margin: 0px;
+}
+
+.programming_bar_container {
+    background-color: #ddd;
+    padding: 3px;
+    border-radius: 25px;
+    width: auto;
+    flex-direction: column;
+    display: flex;
+}
+
+.programming_bar_item{
+    width: var(--programming-percent);
+    background-color: var(--programming-color);
+    text-align: right;
+    border-radius: 25px;
+    user-select: none;
+    padding-right: 5px;
+}
+
+
+.programming_list {
+    align-items:center;
+    min-height: 10px;
+    overflow: hidden;
+    height: auto;
+}
+

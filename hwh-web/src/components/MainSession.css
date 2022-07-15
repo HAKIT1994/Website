@@ -1,0 +1,119 @@
+.main-container {
+    background: url('../../public/images/img-home.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+}
+
+.main-container > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -100px;
+}
+
+.main-container > p{
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS','Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic";
+}
+
+.main-btns {
+    margin-top: 32px;
+}
+
+.main-btns .btn {
+    margin: 6px;
+}
+
+@media screen and (max-width: 960px) {
+    .main-container > h1 {
+        font-size: 70px;
+        margin-top: -150px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .main-container > h1 {
+        font-size: 50px;
+        margin-top: -100px;
+    }
+
+    .main-container > p {
+        font-size: 30px;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn{
+        width:100%
+    }
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+
+  .button {
+    background-color: #fff;
+    color: #242424;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0px;
+}

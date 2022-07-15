@@ -1,13 +1,17 @@
 import React from 'react'
 import '../../App.css'
-import HeroSession from '../HeroSession'
-import Cards from '../Cards'
+import MainSession from '../MainSession'
+import Achievement from '../Sections/Achievement'
+import Intro from '../Sections/Introduction'
+import Skills from '../Sections/Skills'
 
 function Home () {
     return (
         <>
-            <HeroSession />
-            <Cards />          
+            <MainSession/>
+            <Intro />
+            <Skills />
+            <Achievement /> 
         </>
     )
 }

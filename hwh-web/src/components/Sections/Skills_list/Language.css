@@ -1,0 +1,55 @@
+:root {
+    --language-percent: 0% ;
+    --language-color: green;
+
+}
+
+.language {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-top: -10vh;
+}
+
+.language > h1 {
+    text-align: center;
+}
+
+.language_container{
+    text-align: left;
+    margin: 2%;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-bottom: 1%;
+    height: auto;
+}
+
+.language_container > p{
+    margin: 0px;
+}
+
+.language_bar_container {
+    background-color: #ddd;
+    padding: 3px;
+    border-radius: 25px;
+    width: auto;
+    flex-direction: column;
+    display: flex;
+}
+
+.language_bar_item{
+    width: var(--language-percent);
+    background-color: var(--language-color);
+    text-align: right;
+    border-radius: 25px;
+    user-select: none;
+    padding-right: 5px;
+}
+
+
+.language_list {
+    align-items:center;
+    min-height: 10px;
+    overflow: hidden;
+    height: auto;
+}
+

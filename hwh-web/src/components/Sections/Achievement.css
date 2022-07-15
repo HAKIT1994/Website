@@ -1,39 +1,46 @@
-.cards {
+.Achievement {
+    background-color: rgba(231, 231, 231, 0.726);
     padding: 4rem;
-    background: #fff;
+    padding-top: 20vh;
+    overflow-x: hidden;
+    height: 100vh;
+    overflow-y: hidden;
+    user-select: none;
   }
   
   h1 {
     text-align: center;
   }
   
-  .cards__container {
+  .Achievement__container {
     display: flex;
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+    padding:  20px;
   }
   
-  .cards__wrapper {
+  .Achievement__wrapper {
     position: relative;
     margin: 50px 0 45px;
   }
   
-  .cards__items {
+  .Achievement__items {
     margin-bottom: 24px;
   }
   
-  .cards__item {
+  .Achievement__item {
     display: flex;
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
     padding: 20px 10px;
+    min-width: 60vh;
   }
   
-  .cards__item__link {
+  .Achievement__item__link {
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -45,7 +52,7 @@
     text-decoration: none;
   }
   
-  .cards__item__pic-wrap {
+  .Achievement__item__pic-wrap {
     position: relative;
     width: 100%;
     padding-top: 67%;
@@ -57,7 +64,7 @@
     animation-duration: 2s;
   }
   
-  .cards__item__pic-wrap::after {
+  .Achievement__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -67,11 +74,11 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #57a7e4;
+    background-color: #2b5223;
     box-sizing: border-box;
   }
   
-  .cards__item__img {
+  .Achievement__item__img {
     position: absolute;
     top: 0;
     right: 0;
@@ -86,20 +93,21 @@
     transition: all 0.2s linear;
   }
   
-  .cards__item__img:hover {
+  .Achievement__item__img:hover {
     transform: scale(1.1);
   }
   
-  .cards__item__info {
+  .Achievement__item__info {
     padding: 20px 30px 30px;
   }
   
-  .cards__item__text {
+  .Achievement__item__text {
     color: #252e48;
     font-size: 18px;
     line-height: 24px;
   }
   
+
   @media only screen and (min-width: 1200px) {
     .content__blog__container {
       width: 84%;
@@ -107,13 +115,19 @@
   }
   
   @media only screen and (min-width: 1024px) {
-    .cards__items {
+    .Achievement__items {
       display: flex;
     }
   }
   
   @media only screen and (max-width: 1024px) {
-    .cards__item {
+    .Achievement__item {
       margin-bottom: 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .Achievement {
+      height: auto;
     }
   }

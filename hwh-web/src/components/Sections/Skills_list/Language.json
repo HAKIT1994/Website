@@ -1,0 +1,22 @@
+[
+    {
+      "title": "Cantonese",
+      "percent": "100%",
+      "color": "#ff63ce"
+    },
+    {
+      "title": "Mandarin",
+      "percent": "95%",
+      "color": "#c187ff"
+    },
+    {
+      "title": "English",
+      "percent": "95%",
+      "color": "#fc5e03"
+    },
+    {
+        "title": "Japanese",
+        "percent": "80%",
+        "color": "#03fc94"
+    }
+  ]

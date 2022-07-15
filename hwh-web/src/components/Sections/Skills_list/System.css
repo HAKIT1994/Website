@@ -1,0 +1,55 @@
+:root {
+    --system-percent: 0% ;
+    --system-color: green;
+
+}
+
+.system {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-top: -10vh;
+}
+
+.system > h1 {
+    text-align: center;
+}
+
+.system_container{
+    text-align: left;
+    margin: 2%;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-bottom: 1%;
+    height: auto;
+}
+
+.system_container > p{
+    margin: 0px;
+}
+
+.system_bar_container {
+    background-color: #ddd;
+    padding: 3px;
+    border-radius: 25px;
+    width: auto;
+    flex-direction: column;
+    display: flex;
+}
+
+.system_bar_item{
+    width: var(--system-percent);
+    background-color: var(--system-color);
+    text-align: right;
+    border-radius: 25px;
+    user-select: none;
+    padding-right: 5px;
+}
+
+
+.system_list {
+    align-items:center;
+    min-height: 10px;
+    overflow: hidden;
+    height: auto;
+}
+

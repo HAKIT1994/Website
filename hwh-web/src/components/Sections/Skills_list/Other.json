@@ -1,0 +1,27 @@
+[
+    {
+      "title": "VMware vSphere",
+      "percent": "85%",
+      "color": "#ff63ce"
+    },
+    {
+      "title": "VMware vCenter",
+      "percent": "85%",
+      "color": "#c187ff"
+    },
+    {
+      "title": "Microsoft Office",
+      "percent": "90%",
+      "color": "#fc5e03"
+    },
+    {
+        "title": "Adobe Photoshop",
+        "percent": "90%",
+        "color": "#03fc94"
+    },
+    {
+        "title": "Adobe After Effects",
+        "percent": "80%",
+        "color": "#84fc03"
+    }
+  ]

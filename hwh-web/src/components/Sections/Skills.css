@@ -1,0 +1,92 @@
+.skills_container{
+    display: flex;
+    background-color: #fff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+
+.skills_display {
+    margin: 102px auto;
+    padding: 10vh;
+    flex-grow: 1
+}
+
+
+nav[role="mid"] {
+    height: 100vh;
+}
+
+nav[role="mid"] ul {
+    list-style-type: none;
+    margin: 0;
+    width: 32vh;
+    background-color: #242424;
+    user-select: none;
+    height: 100vh;
+    padding-top: 60%;
+}
+
+nav[role="mid"] li a {
+    display: block;
+    color: #fff;
+    padding: 18px 16px;
+    text-decoration: none;
+    text-align: right;
+    cursor: pointer;
+    margin-bottom: 10%;
+}
+
+nav[role="mid"] li a:hover {
+    color: white;
+    border-left: 8px solid #fff;
+    border-right: 8px solid #fff;
+}
+
+
+nav[role="mid"] i {
+    cursor: pointer;
+    color: #fff;
+	font-size: 25px;
+	margin-right: 4px;
+	vertical-align: -4px;
+}
+
+
+  @media only screen and (min-width: 1200px) {
+    nav[role="mid"] li a {
+        visibility:visible;
+    }
+
+
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    nav[role="mid"] li a {
+        visibility:visible;
+    }
+
+
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    nav[role="mid"] li a {
+        visibility: hidden;
+    }
+
+
+    nav[role="mid"] li i {
+        visibility: visible;
+    }
+
+    nav[role="mid"] ul {
+        width: 50%;
+    }
+
+    .skills_container{
+        height: 100vh;
+    }
+  }

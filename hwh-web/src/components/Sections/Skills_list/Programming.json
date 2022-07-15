@@ -1,0 +1,27 @@
+[
+  {
+    "title": "ReactJS",
+    "percent": "80%",
+    "color": "#ff63ce"
+  },
+  {
+    "title": "Javascript",
+    "percent": "80%",
+    "color": "#c187ff"
+  },
+  {
+    "title": "HTML",
+    "percent": "85%",
+    "color": "#fc5e03"
+  },
+  {
+    "title": "CSS",
+    "percent": "85%",
+    "color": "#03fc94"
+  },
+  {
+    "title": "Python",
+    "percent": "75%",
+    "color": "#84fc03"
+  }
+]

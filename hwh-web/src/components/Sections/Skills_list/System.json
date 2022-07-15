@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Windows",
+      "percent": "90%",
+      "color": "#ff63ce"
+    },
+    {
+      "title": "Windows Server 2013 - 2019",
+      "percent": "85%",
+      "color": "#c187ff"
+    },
+    {
+      "title": "CentOS 7 - 8",
+      "percent": "85%",
+      "color": "#fc5e03"
+    },
+    {
+        "title": "RedHat",
+        "percent": "80%",
+        "color": "#03fc94"
+    },
+    {
+        "title": "KaLi",
+        "percent": "70%",
+        "color": "#84fc03"
+    }
+  ]
