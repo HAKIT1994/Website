@@ -17,8 +17,8 @@ function MainSession() {
         <div class="dropdown">
         <button class="dropbtn">Language&nbsp; <i className="fas fa-globe-asia"/></button>
           <div class="dropdown-content">         
-            <a href="#">English</a>
-            <a href="#">Japanese</a>
+            <a href="./files/Ha Wing Hong Resume.pdf" target="_blank">English</a>
+            <a href="./files/Ha Wing Hong 職務経歴書.pdf" target="_blank">Japanese</a>
           </div>
         </div>    
 

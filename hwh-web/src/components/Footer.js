@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './Footer.css'
 
 function Mailto({ email, subject, body, ...props }) {
@@ -19,18 +18,14 @@ function Footer() {
                     <Mailto email="hakit94@yahoo.com"subject="[From Website]" body="">
                         <i className='fas fa-envelope' />
                     </Mailto>
-<<<<<<< HEAD
+
                     <a className='social-icon-link' href="https://github.com/HAKIT1994/Website" target='_blank' aria-label='Github'>
                         <i className='fab fa-github' />
                     </a>
-=======
-                    <Link className='social-icon-link' to="#" target='_blank' aria-label='Github'>
-                        <i className='fab fa-github' />
-                    </Link>
->>>>>>> c44362fc328ac90de8b29f0ee9355fb4294f3166
-                    <Link className='social-icon-link' to="#" target='_blank' aria-label='Linkedin'>
+
+                    <a className='social-icon-link' href="https://www.linkedin.com/in/wing-hong-ha-153582157/" target='_blank' aria-label='Linkedin'>
                         <i className='fab fa-linkedin' />
-                    </Link>
+                    </a>
                 </div>
         </section>
     </div>
