@@ -73,8 +73,8 @@
   
   /* Menu Icon Hover */
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
-    border-top: 4px solid #fff;
+    border-bottom: 7px solid #fff;
+    border-top: 7px solid #fff;
     transition: all 0.2s ease-out;
   }
   

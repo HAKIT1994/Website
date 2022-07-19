@@ -12,14 +12,12 @@ function Achievement() {
                 src="images/JLPTN2.png"
                 text="Japanese-Language Proficiency Test N2 (JLPT N2)"
                 label="2021"
-                path='/services'
                 />
                  <AchievementItem 
                 src="images/ITIL.png"
                 text="Information Technology Infrastructure Library V3 Foundation
                 (ITIL v3)"
                 label="2015"
-                path='/services2'
                 />
             </ul>
         </div>
