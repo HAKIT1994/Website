@@ -3,6 +3,7 @@
     overflow-x: hidden;
     overflow-y: hidden;
     height: 100vh;
+    padding-top: 5%;
 }
 
 .intro > h3 {
@@ -10,20 +11,30 @@
 }
 
 .intro__container {
-    display: flex;
-    flex-flow: column;
-    width: 100vh;
-    margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  padding:  20px;
+
+  justify-content: center;
+  
 }
 
 .intro__items{
-    display: flex;
-    margin: 10 2rem;
-    border-radius: 10vh;
-    padding: 30vh 5vh;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: -20vh;
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
+  border-radius: 10px;
+  padding: 20px 10px;
+  min-width: 60vh;
+  
+  justify-content: center;
+  column-gap: 3%;
+  row-gap: 5vh;
 }
 
 .intro_photo{
@@ -45,33 +56,19 @@
 }
 
 
-
-@media only screen and (min-width: 1200px) {
-    .intro__container {
-      width: 100vh;
-    }
-  }
-  
-  @media only screen and (min-width: 1024px) {
-    .intro__items {
-      display: flex;
-      flex-direction:row;
-    }
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    .intro__items {
-      margin-bottom: 2rem;
-      flex-direction:column;
-    }
+@media only screen and (max-width: 600px) {
+  .intro__container {
+    flex-direction: column;
+    padding-top: 20%
   }
 
-  @media only screen and (max-width: 1024px) {
-    .intro {
-      height: auto;
-    }
+  .intro_photo{
+    height: 0;
+    --b: 0px; 
+}
 
-    .intro_photo{
-        margin: 10vh;
-    }
-  }
+.intro__items{
+  column-gap: 0;
+
+}
+}

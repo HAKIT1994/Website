@@ -27,7 +27,8 @@ nav[role="mid"] ul {
     background-color: #242424;
     user-select: none;
     height: 100vh;
-    padding-top: 60%;
+    padding-top: 150px;
+    align-content: center
 }
 
 nav[role="mid"] li a {
@@ -57,37 +58,25 @@ nav[role="mid"] i {
 }
 
 
-  @media only screen and (min-width: 1200px) {
+    
+@media only screen and (max-width: 700px) {
     nav[role="mid"] li a {
-        visibility:visible;
-    }
+        font-size: 0%;
 
-
-  }
-  
-  @media only screen and (min-width: 1024px) {
-    nav[role="mid"] li a {
-        visibility:visible;
-    }
-
-
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    nav[role="mid"] li a {
-        visibility: hidden;
     }
 
 
     nav[role="mid"] li i {
         visibility: visible;
     }
-
     nav[role="mid"] ul {
-        width: 50%;
+        width: 80px;
     }
 
-    .skills_container{
-        height: 100vh;
+    nav[role="mid"] li a:hover {
+        color: white;
+        border-left: 0;
+        border-right:0;
+        transition:none;
     }
   }
