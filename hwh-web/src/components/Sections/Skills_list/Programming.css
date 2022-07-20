@@ -1,7 +1,7 @@
 :root {
     --programming-percent: 0% ;
     --programming-color: green;
-
+    overflow-x: hidden;
 }
 
 .programming {

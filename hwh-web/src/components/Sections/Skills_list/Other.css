@@ -1,7 +1,7 @@
 :root {
     --other-percent: 0% ;
     --other-color: green;
-
+    overflow-x: hidden;
 }
 
 .other {

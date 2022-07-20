@@ -1,7 +1,7 @@
 :root {
     --language-percent: 0% ;
     --language-color: green;
-
+    overflow-x: hidden;
 }
 
 .language {

@@ -10,6 +10,7 @@
     z-index: 999;
     cursor: pointer;
     user-select: none;
+  
   }
 
   ::-webkit-scrollbar   {
@@ -177,3 +178,4 @@
     }
   }
 
+ 

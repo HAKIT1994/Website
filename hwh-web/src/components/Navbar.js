@@ -52,9 +52,6 @@ function Navbar() {
                             </Link>
                         </li>
                         <li>
-                            {/* <Link to='other' smooth className='nav-links' onClick={closeMobileMenu}>
-                                Other
-                            </Link> */}
                         </li>
                     </ul>
                 </div>

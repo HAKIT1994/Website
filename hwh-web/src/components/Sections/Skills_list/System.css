@@ -1,7 +1,7 @@
 :root {
     --system-percent: 0% ;
     --system-color: green;
-
+    overflow-x: hidden;
 }
 
 .system {
